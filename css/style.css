@@ -97,11 +97,19 @@ body {
 }
 
 @media (max-width: 768px) {
-  .titolo, .titolo2, .titolo3, .titolo4, .titolo5 {
+  .titolo, .titolo3, .titolo4, .titolo5 {
     font-size: 17px;
     margin-left: 30px;
     margin-top: -30px;
     line-height: 10px;
+  }
+
+  .titolo2 {
+    font-size: 14px;
+    position: relative;
+    top: 35px;
+    left: -10px;
+    line-height: 5px;
   }
 
   .titolo4 {
@@ -166,109 +174,118 @@ body {
   
 
 @media (max-width: 768px) {
-  .sottotitolo, .sottotitolo2, .sottotitolo3, .sottotitolov {
+  .sottotitolo, .sottotitolo3, .sottotitolov {
     font-size: 7px;
     margin-left: 30px;
     margin-top: -7px;
     line-height: 1px;
   }
 
+  .sottotitolo2 {
+    font-size: 4px;
+    margin-left: 30px;
+    position: relative;
+    top: 32px;
+    left: -10px;
+    line-height: 2px;
+  }
+
   .sottotitoloR {
-    font-size: 7px;
-    margin-left: 180px;
-    margin-top: -180px;
-    line-height: 10px;
+    font-size: 6px;
+    margin-left: 125px;
+    margin-top: -148px;
+    line-height: 8px;
 }
 
   .sottotitoloR2 {
       font-size: 6px;
-      margin-left: 180px;
-      margin-top: -192px;
-      line-height: 10px;
+      margin-left: 125px;
+      margin-top: -159px;
+      line-height: 7px;
   }
 
   .sottotitoloR3 {
-      font-size: 7px;
-      margin-left: 180px;
-      margin-top: -175px;
-      line-height: 10px;
+      font-size: 6px;
+      margin-left: 125px;
+      margin-top: -149px;
+      line-height: 8px;
   }
 
   .sottotitoloR4 {
-    font-size: 7px;
-    margin-left: 180px;
-    margin-top: -170px;
-    line-height: 10px;
+    font-size: 6px;
+    margin-left: 125px;
+    margin-top: -134px;
+    line-height: 8px;
 }
 
   .sottotitoloR5 {
-      font-size: 7px;
-      margin-left: 180px;
-      margin-top: -174px;
-      line-height: 10px;
+      font-size: 6px;
+      margin-left: 125px;
+      margin-top: -140px;
+      line-height: 8px;
   }
 
   .sottotitoloR6 {
-      font-size: 7px;
-      margin-left: 180px;
-      margin-top: -170px;
-      line-height: 10px;
+      font-size: 6px;
+      margin-left: 125px;
+      margin-top: -140px;
+      line-height: 8px;
   }
 
   .sottotitoloR7 {
       font-size: 6px;
-      margin-left: 180px;
-      margin-top: -185px;
-      line-height: 10px;
+      margin-left: 125px;
+      margin-top: -160px;
+      line-height: 8px;
   }
 
   .sottotitoloB {
     font-size: 6px;
-    margin-left: 180px;
-    margin-top: -189px;
-    line-height: 10px;
+    margin-left: 125px;
+    margin-top: -159px;
+    line-height: 7px;
 }
 
   .sottotitoloB2 {
-      font-size: 7px;
-      margin-left: 180px;
-      margin-top: -178px;
-      line-height: 10px;
+      font-size: 6px;
+      margin-left: 125px;
+      margin-top: -145px;
+      line-height: 8px;
   }
 
   .sottotitoloB3 {
-      font-size: 7px;
-      margin-left: 180px;
-      margin-top: -190px;
-      line-height: 10px;
+      font-size: 6px;
+      margin-left: 125px;
+      margin-top: -153px;
+      line-height: 8px;
   }
 
   .sottotitoloB4 {
-    font-size: 7px;
-    margin-left: 180px;
-    margin-top: -186px;
-    line-height: 10px;
+    font-size: 6px;
+    margin-left: 125px;
+    margin-top: -152px;
+    line-height: 8px;
 }
 
   .sottotitoloB5 {
-      font-size: 7px;
-      margin-left: 180px;
-      margin-top: -174px;
-      line-height: 10px;
+      font-size: 6px;
+      margin-left: 125px;
+      margin-top: -143px;
+      line-height: 8px;
   }
 
   .sottotitoloB6 {
       font-size: 6px;
-      margin-left: 180px;
-      margin-top: -190px;
-      line-height: 10px;
+      margin-left: 125px;
+      margin-top: -163px;
+      line-height: 7px;
   }
 
   .sottotitoloB7 {
-      font-size: 7px;
-      margin-left: 180px;
-      margin-top: -167px;
-      line-height: 10px;
+      font-size: 6px;
+      margin-left: 125px;
+      margin-top: -137px;
+      line-height: 8px;
   }
 
 
@@ -605,9 +622,21 @@ line-height: 15px;
 }
 
 @media (max-width: 768px) {
-  .blocco, .blocco2, .bloccoB {
+  .blocco2 {
     max-width: 70%;
     height: 130px;
+    margin: 30px auto;
+  }
+
+  .bloccoB {
+    max-width: 70%;
+    height: 91px;
+    margin: 30px auto;
+  }
+
+  .blocco {
+    max-width: 70%;
+    height: 100px;
     margin: 30px auto;
   }
 
@@ -646,8 +675,10 @@ line-height: 15px;
   }
 
   .link a {
-    margin-left: 120px;
+    margin-left: 110px;
     font-size: 8px;
+    position: relative;
+    top: 30px;
   }
 
   .link2 a {
@@ -857,9 +888,9 @@ line-height: 15px;
   }
 
   .imgv10 img {
-    margin-top: -65px;
-    width: 190px;
-    margin-left: -170px;
+    margin-top: -84px;
+    width: 199px;
+    margin-left: -235px;
   
   }
 }
